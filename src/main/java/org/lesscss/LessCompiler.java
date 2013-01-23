@@ -63,7 +63,7 @@ public class LessCompiler {
     private static final Log log = LogFactory.getLog(LessCompiler.class);
     
     private URL envJs = LessCompiler.class.getClassLoader().getResource("META-INF/env.rhino.js");
-    private URL lessJs = LessCompiler.class.getClassLoader().getResource("META-INF/less.js");
+    private URL lessJs = LessCompiler.class.getClassLoader().getResource("META-INF/less-1.3.3.min.js");
     private List<URL> customJs = Collections.emptyList();
     private boolean compress = false;
     private String encoding = null;
